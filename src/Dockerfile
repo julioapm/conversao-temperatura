@@ -1,6 +1,6 @@
 # Estágio 1: compilar a app
 # Obter imagem base
-FROM node:latest
+FROM node:14.17.5
 # Definir diretório
 WORKDIR /app
 # Copiar arquivos de configuração
